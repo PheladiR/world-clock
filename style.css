@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    background-color: #14213d !important;
 }
 
 h2{
@@ -12,7 +13,8 @@ h2{
     margin: 20px auto;
     max-width: 800px;
     border-radius: 10px;
-      background: rgba(197, 184, 164, 0.3);
+      /*background: rgba(197, 184, 164, 0.3);*/
+      background-color: #e5e5e5;
 }
 
 select {
@@ -36,4 +38,8 @@ font-size: 24px;
 
 .city:last-child{
     border: none;
+}
+
+a {
+    color: #ffc2d1 !important;
 }

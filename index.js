@@ -48,13 +48,14 @@ function updateCity(event) {
 
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = `
-    <div class="city d-flex justify-content-between">
+    <div class="city d-flex justify-content-between fs-1">
       <div>
-        <h2 class="cityName">${cityName}</h2>
-        <div class="date text-muted">${cityDate}</div>
+        <h2 class="cityName fs-1">${cityName}</h2>
+        <div class="date text-muted fs-1">${cityDate}</div>
       </div>
-      <div class="time">${cityTime}</div>
+      <div class="time fs-1">${cityTime}</div>
     </div>
+    <a href="/" class="text-decoration-none text-black ms-3">All cities</a>
   `;
 }
 
