@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("C:\Users\Pheladi\Downloads\pexels-pixabay-158063.jpg") !important;
+    background-size: cover;
+}
+
+h2{
+    font-size: 36px;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+      background: rgba(197, 184, 164, 0.3);
+}
+
+select {
+    width: 100%;
+}
+
+.time{
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.time small {
+font-size: 24px;
+}
+
+.city{
+     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+     padding: 10px;
+}
+
+.city:last-child{
+    border: none;
+}

@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
 </head>
 <body>
     <div class="container">
         <h1 class="text-center">World Clock</h1>
-        <select>
+        <select class="form-select-lg mb-3">
             <option>Select a city...</option>
             <option>London</option>
             <option>New York</option>
             <option>Paris</option>
         </select>
-        <div class="city">
-            <h2>Johannesburg</h2>
-            <div class="date">August 03, 2025</div>
-            <div class="time">09:31 am</div>
+        <div class="city d-flex justify-content-between">
+            <div>
+                <h2>Johannesburg</h2>
+                <div class="date  text-muted">August 03, 2025</div>
+            </div>
+            <div class="time">09:31<small>AM</small></div>
         </div>
-            <div class="city">
-            <h2>Sydney</h2>
-            <div class="date">August 03, 2025</div>
-            <div class="time">17:31 pm</div>
+         <div class="city d-flex justify-content-between">
+            <div>
+                <h2>Sydney</h2>
+                <div class="date  text-muted">August 03, 2025</div>
+            </div>
+            <div class="time">17:31<small>AM</small></div>
         </div>
     </div>
-    
-    <footer class="text-center">This project was coded by <a href="https://www.linkedin.com/in/pheladi-rachoshi-8b2483239/">Pheladi Rachoshi</a> and it is open sourced on <a href="https://github.com/PheladiR/world-clock">Github</a>, hosted on <a href="https://nako-ya-lefase.netlify.app/">Netlify</a></footer>
+    <footer class="text-center">This project was coded by <a href="https://www.linkedin.com/in/pheladi-rachoshi-8b2483239/" class="text-decoration-none"><strong>Pheladi Rachoshi</strong></a> and it is open sourced on <a href="https://github.com/PheladiR/world-clock" class="text-decoration-none">Github</a>, hosted on <a href="https://nako-ya-lefase.netlify.app/" class="text-decoration-none">Netlify</a></footer>
 </body>
 </html>
