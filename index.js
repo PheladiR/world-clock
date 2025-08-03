@@ -50,10 +50,10 @@ function updateCity(event) {
   citiesElement.innerHTML = `
     <div class="city d-flex justify-content-between">
       <div>
-        <h2 class="cityName fs-3">${cityName}</h2>
+        <h2 class="cityName fs-5">${cityName}</h2>
         <div class="date text-muted">${cityDate}</div>
       </div>
-      <div class="time fs-2">${cityTime}</div>
+      <div class="time fs-3">${cityTime}</div>
     </div>
     <a href="/" class="text-decoration-none text-black ms-3">All cities</a>
   `;
