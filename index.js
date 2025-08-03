@@ -31,7 +31,7 @@ function updateTime() {
 }
 
 updateTime();
-setInterval(updateTime, 1000); // update every second
+setInterval(updateTime, 1000);
 
 // Update City on dropdown change
 function updateCity(event) {
@@ -48,12 +48,12 @@ function updateCity(event) {
 
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = `
-    <div class="city d-flex justify-content-between fs-1">
+    <div class="city d-flex justify-content-between">
       <div>
-        <h2 class="cityName fs-2">${cityName}</h2>
-        <div class="date text-muted fs-3">${cityDate}</div>
+        <h2 class="cityName fs-3">${cityName}</h2>
+        <div class="date text-muted">${cityDate}</div>
       </div>
-      <div class="time fs-1">${cityTime}</div>
+      <div class="time fs-2">${cityTime}</div>
     </div>
     <a href="/" class="text-decoration-none text-black ms-3">All cities</a>
   `;
