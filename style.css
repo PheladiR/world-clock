@@ -27,10 +27,6 @@ select {
     line-height: 36px;
 }
 
-.time small {
-font-size: 24px;
-}
-
 .city{
      border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
      padding: 10px;
@@ -50,3 +46,4 @@ a {
     margin: auto; 
   }
 }
+
