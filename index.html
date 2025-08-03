@@ -13,26 +13,30 @@
 <body>
     <div class="container">
         <h1 class="text-center">World Clock</h1>
-        <select class="form-select-lg mb-3">
-            <option>Select a city...</option>
-            <option>London</option>
-            <option>New York</option>
-            <option>Paris</option>
+            <select class="form-select-lg mb-3" id="city">
+            <option value="">Select a city...</option>
+            <option value='Europe/London'>London</option>
+            <option value="America/New_York">New York</option>
+            <option value="Europe/Paris">Paris</option>
         </select>
-        <div class="city d-flex justify-content-between" id="Johannesburg">
+        
+        <div id="cities">
+            <div class="city d-flex justify-content-between" id="Johannesburg">
             <div>
                 <h2>Johannesburg</h2>
-                <div class="date  text-muted">August 03, 2025</div>
+                <div class="date  text-muted"></div>
             </div>
-            <div class="time">09:31<small>AM</small></div>
+            <div class="time"></div>
         </div>
          <div class="city d-flex justify-content-between" id="sydney">
             <div>
                 <h2>Sydney</h2>
-                <div class="date  text-muted">August 03, 2025</div>
+                <div class="date  text-muted"></div>
             </div>
-            <div class="time">17:31<small>AM</small></div>
+            <div class="time"></div>
         </div>
+        </div>
+        
     </div>
     <footer class="text-center">This project was coded by <a href="https://www.linkedin.com/in/pheladi-rachoshi-8b2483239/" class="text-decoration-none"><strong>Pheladi Rachoshi</strong></a> and it is open sourced on <a href="https://github.com/PheladiR/world-clock" class="text-decoration-none">Github</a>, hosted on <a href="https://nako-ya-lefase.netlify.app/" class="text-decoration-none">Netlify</a></footer>
 <script src="/index.js"></script>
