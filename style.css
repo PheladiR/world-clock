@@ -13,7 +13,8 @@ h2{
     margin: auto;
     max-width: 90%;
     border-radius: 10px;
-    background-color: #e5e5e5;}
+    background-color: #e5e5e5;
+  box-shadow: 0 4px 10px rgba(21, 20, 20, 0.2);}
 
 select {
     width: 100%;
