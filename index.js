@@ -53,10 +53,7 @@ function updateCity(event) {
         <h2 class="cityName fs-5">${cityName}</h2>
         <div class="date text-muted">${cityDate}</div>
       </div>
-      <div class="time fs-3">${cityTime}</div>
-    </div>
-    <a href="/" class="text-decoration-none text-black ms-3">All cities</a>
-  `;
+      <div class="time fs-4">${cityTime}</div>`;
 }
 
 let citiesSelectElement = document.querySelector("#city");

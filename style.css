@@ -1,21 +1,19 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background-color: #14213d !important;
+    background-color: #14213d;
 }
 
 h2{
-    font-size: 36px !important;
+    font-size: 36px;
 }
 
 .container {
     padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
+    margin: auto;
+    max-width: 90%;
     border-radius: 10px;
-      /*background: rgba(197, 184, 164, 0.3);*/
-      background-color: #e5e5e5;
-}
+    background-color: #e5e5e5;
 
 select {
     width: 100%;
@@ -24,7 +22,7 @@ select {
 .time{
     font-size: 46px;
     font-weight: bold;
-    line-height: 36px;
+    line-height: 30px;
 }
 
 .city{
@@ -37,13 +35,5 @@ select {
 }
 
 a {
-    color: #ffc2d1 !important;
+    color: #ffc2d1;
 }
-
-@media (max-width: 576px) {
-  .container {
-    max-width: 90%;
-    margin: auto; 
-  }
-}
-
